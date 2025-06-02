@@ -128,3 +128,43 @@ footer {
     background: rgba(255, 255, 255, 0.9) !important;
     backdrop-filter: blur(10px);
 }
+
+/* Feature Cards */
+.feature-card {
+    max-width: 280px;
+    margin: 0 auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.feature-card .card-body {
+    padding: 1.5rem 1rem;
+}
+
+.feature-card .bi {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Main Heading */
+h1.display-3 {
+    font-size: 4rem;
+    font-weight: 700;
+    background: var(--primary-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    h1.display-3 {
+        font-size: 3rem;
+    }
+    .feature-card {
+        max-width: 100%;
+    }
+}

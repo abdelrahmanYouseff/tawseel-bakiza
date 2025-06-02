@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>روابط توصيل طنط بكيزة</title>
+  <title>Link Grid</title>
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <style>
@@ -100,14 +100,15 @@
 
   <div class="container">
     <div class="logo">
-        <img src="{{ asset('images/logo.png') }}" alt="Logo" style="width: 210px; border: 4px solid #fff;" />    </div>
-    <h2 style="font-size: 20px; font-weight: 600; margin-bottom: 20px;">Visit Our Restaurant on</h2>
+      <img src="{{ asset('images/logo.png') }}" alt="Logo" style="width: 200px; border: 4px solid #fff;" />
+    </div>
+    <h2 style="font-size: 20px; font-weight: 600; margin-bottom: 35px;">هتلاقوني في</h2>
 
     <div class="grid-links">
-      <a href="https://url.mykeeta.com/wqr8bzVz" class="link-card" style="background-image: url('{{ asset('images/keeta.png') }}'); background-size: cover; background-position: center; height: 140px;"></a>
+      <a href="https://hungerstation.com/sa-en/restaurant/riyadh/al-muzahimiyah/147152" class="link-card" style="background-image: url('{{ asset('images/hunger.webp') }}'); background-size: cover; background-position: center; height: 140px;"></a>
       <a href="https://jahez.link/JDOkNXgjjTb" class="link-card" style="background-image: url('{{ asset('images/jahiz.png') }}'); background-size: cover; background-position: center; height: 140px;"></a>
       <a href="https://thechefzco.app.link/RgGwWvIA4Sb" class="link-card" style="background-image: url('{{ asset('images/chifz.png') }}'); background-size: cover; background-position: center; height: 140px;"></a>
-      <a href="https://food.noon.com/ar-sa/outlet/TNTBKZQVT0" class="link-card" style="background-image: url('{{ asset('images/noon-food.png') }}'); background-size: cover; background-position: center; height: 140px;"></a>
+      <a href="https://www.noon.com/uae-en/express-food/" class="link-card" style="background-image: url('{{ asset('images/noon-food.png') }}'); background-size: cover; background-position: center; height: 140px;"></a>
     </div>
   </div>
 
