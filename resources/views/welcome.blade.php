@@ -135,7 +135,7 @@
       <a href="https://jahez.link/ieLexrG96Tb" class="link-card" style="background-image: url('{{ asset('images/jahiz.png') }}'); background-size: cover; background-position: center; height: 140px;"></a> --}}
       <a href="https://thechefzco.app.link/22nzXGfeNTb" class="link-card">
         <div class="card-img">
-          <img src="{{ asset('images/chifz.png') }}" alt="ذا شيفز" />
+          <img src="{{ asset('images/the-chefz.png') }}" alt="ذا شيفز" />
         </div>
       </a>
       {{-- <a href="https://food.noon.com/en-sa/outlet/TNTBKZQVT0" class="link-card" style="background-image: url('{{ asset('images/noon-food.png') }}'); background-size: cover; background-position: center; height: 140px;"></a> --}}
