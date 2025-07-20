@@ -131,15 +131,26 @@
     <h2 style="font-size: 20px; font-weight: 600; margin-bottom: 35px;">هتلاقوني في</h2>
 
     <div class="grid-links">
-      {{-- <a href="https://hungerstation.com/sa-en/restaurant/riyadh/al-muzahimiyah/147152" class="link-card" style="background-image: url('{{ asset('images/hunger.webp') }}'); background-size: cover; background-position: center; height: 140px;"></a>
-      <a href="https://jahez.link/ieLexrG96Tb" class="link-card" style="background-image: url('{{ asset('images/jahiz.png') }}'); background-size: cover; background-position: center; height: 140px;"></a> --}}
+      <a href="https://hungerstation.com/sa-en/restaurant/riyadh/al-muzahimiyah/147152" class="link-card">
+        <div class="card-img">
+          <img src="{{ asset('images/hunger.webp') }}" alt="Hunger Station" />
+        </div>
+      </a>
+      <a href="https://jahez.link/ieLexrG96Tb" class="link-card">
+        <div class="card-img">
+          <img src="{{ asset('images/jahiz.png') }}" alt="Jahez" />
+        </div>
+      </a>
+      <a href="https://food.noon.com/en-sa/outlet/TNTBKZQVT0" class="link-card">
+        <div class="card-img">
+          <img src="{{ asset('images/noon-food.png') }}" alt="Noon Food" />
+        </div>
+      </a>
       <a href="https://thechefzco.app.link/22nzXGfeNTb" class="link-card">
         <div class="card-img">
-
           <img src="{{ asset('images/the-chefz.png') }}" alt="ذا شيفز" />
         </div>
       </a>
-      {{-- <a href="https://food.noon.com/en-sa/outlet/TNTBKZQVT0" class="link-card" style="background-image: url('{{ asset('images/noon-food.png') }}'); background-size: cover; background-position: center; height: 140px;"></a> --}}
     </div>
   </div>
 
